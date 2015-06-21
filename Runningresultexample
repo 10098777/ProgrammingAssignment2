@@ -1,3 +1,5 @@
+##This is a running example of the two functions in cachematrix
+
 > source('E:/statistics/coursera/repository/Rprogrammingrepo/ProgrammingAssignment2/cachematrix.R')
 > cachematrix<-makeCacheMatrix(matrix(c(1,2,3,2,2,4,3,1,3),3,3))
 > cachematrix$get()
