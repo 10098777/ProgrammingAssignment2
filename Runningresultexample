@@ -1,0 +1,20 @@
+> source('E:/statistics/coursera/repository/Rprogrammingrepo/ProgrammingAssignment2/cachematrix.R')
+> cachematrix<-makeCacheMatrix(matrix(c(1,2,3,2,2,4,3,1,3),3,3))
+> cachematrix$get()
+     [,1] [,2] [,3]
+[1,]    1    2    3
+[2,]    2    2    1
+[3,]    3    4    3
+> cachematrix$getinverse()
+NULL
+> cacheSolve(cachematrix)
+     [,1] [,2] [,3]
+[1,]  1.0    3 -2.0
+[2,] -1.5   -3  2.5
+[3,]  1.0    1 -1.0
+> cachematrix$getinverse()
+     [,1] [,2] [,3]
+[1,]  1.0    3 -2.0
+[2,] -1.5   -3  2.5
+[3,]  1.0    1 -1.0
+> 
